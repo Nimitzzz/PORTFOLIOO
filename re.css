@@ -791,4 +791,12 @@ body .container .card .box .content a:hover {
     .skills{
         width: 90%;
     }
+    .para{
+      height: 100vh;
+      margin-top: 20px;
+    }
+    .aboutme{
+      margin-top: 20px;
+      height: 20vh;
+    }
   }
