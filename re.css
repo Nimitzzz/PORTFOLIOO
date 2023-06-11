@@ -2,6 +2,7 @@
 @import url("'animate.css");
 body,html{
     margin: 0px;
+    padding-top: 50px;
     padding: 0px;
     font-family: 'Montserrat', sans-serif;
     background: #0A122A;
