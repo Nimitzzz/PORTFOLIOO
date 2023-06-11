@@ -786,7 +786,7 @@ body .container .card .box .content a:hover {
     .sk{
         display: flex;
         flex-direction: column-reverse;
-        height: 80vh;
+        height: 90vh;
     }
     .skills{
         width: 90%;
@@ -798,5 +798,8 @@ body .container .card .box .content a:hover {
     .aboutme{
       margin-top: 20px;
       height: 20vh;
+    }
+    .whatsapp{
+      display: none;
     }
   }
