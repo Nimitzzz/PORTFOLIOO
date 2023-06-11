@@ -802,5 +802,7 @@ body .container .card .box .content a:hover {
     }
     .whatsapp{
       display: none;
+    }.main{
+      padding-top: 50px;
     }
   }
