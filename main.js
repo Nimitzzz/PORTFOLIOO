@@ -182,4 +182,18 @@ window.onload = function() {
       });
     }
   })();
-  
+  function myClick(){
+    document.getElementById("hit").innerHTML="Don't Hit me!"
+    document.getElementById("hits").innerHTML="Don't Hit me!"
+    document.getElementById("it").innerHTML="Don't Hit me!"
+    document.getElementById("its").innerHTML="Don't Hit me!"
+    document.getElementById("t").innerHTML="Don't Hit me!"
+  }
+  setInterval(() => {
+  document.getElementById("hit").innerHTML=""
+  document.getElementById("hits").innerHTML=""
+  document.getElementById("it").innerHTML=""
+  document.getElementById("its").innerHTML=""
+  document.getElementById("t").innerHTML=""
+},9000);
+
