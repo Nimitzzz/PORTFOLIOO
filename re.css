@@ -806,6 +806,8 @@ body .container .card .box .content a:hover {
     }.main{
       padding-top: 50px;
     }
+    #hit,#it,#t,#hits,#its{
+    display: none;}
   }
   .hit{
     color: white;
