@@ -196,4 +196,12 @@ window.onload = function() {
   document.getElementById("its").innerHTML=""
   document.getElementById("t").innerHTML=""
 },9000);
+$(document).ready(function() {
+  $(document).on('mousemove', function(e) {
+    $('#circularcursor').css({
+      left: e.pageX,
+      top: e.pageY
+    });
+  })
+});
 

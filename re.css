@@ -10,7 +10,7 @@ body,html{
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    cursor: url('circle-fill.svg'), auto;
+    cursor: none;
 }
 #scene{
     display: flex;
@@ -88,6 +88,18 @@ body,html{
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
+}
+#circularcursor {
+  background-color: grey;
+  border:1px solid white;    
+  height:20px;
+  width:20px;
+  border-radius:50%;
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+  position: absolute;
+  z-index: 1;
+  transform: translate(calc(-50% + 15px), -50%);
 }
  
 @keyframes floating {
@@ -200,6 +212,9 @@ p{
         margin-left: 0px;
         margin-right: 20%;
     }
+    html{
+      cursor: none;
+    }
   }
 
 .skills {
@@ -230,6 +245,7 @@ p{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: none;
 }
 
 button {
@@ -575,7 +591,7 @@ body .container .card .box .content a:hover {
     color: rgb(0, 0, 0);
     border-radius: 4px;
     position: relative;
-    cursor: pointer;
+    cursor: none;
     font-style: italic;
     font-weight: bold;
     border: 0;
@@ -643,6 +659,7 @@ body .container .card .box .content a:hover {
     margin-bottom:5% ;
     transform: translate(-50%, -50%);
     width: 500px;
+    cursor: none;
   }
   .wrapper ul {
     list-style: none;
@@ -659,6 +676,7 @@ body .container .card .box .content a:hover {
     border: 5px solid #D8E2DC;
     float: left;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   .wrapper ul li .fa {
@@ -671,45 +689,53 @@ body .container .card .box .content a:hover {
     border: 5px solid #3b5998;
     box-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   .wrapper ul li:hover .fa-linkedin {
     color: #3b5998;
     text-shadow: 0 0 15px #3b5998;
     transition: all 0.5s ease;
+    cursor: none;
   }
   .wrapper ul li:hover.twitter {
     border: 5px solid #00aced;
     box-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   .wrapper ul li:hover .fa-twitter {
     color: #00aced;
     text-shadow: 0 0 15px #00aced;
     transition: all 0.5s ease;
+    cursor: none;
   }
   .wrapper ul li:hover.github {
     border: 5px solid #868686;
     box-shadow: 0 0 15px #888888;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   .wrapper ul li:hover .fa-github {
     color: #878787;
     text-shadow: 0 0 15px #888888;
     transition: all 0.5s ease;
+    cursor: none;
   }
   .wrapper ul li:hover.whatsapp {
     border: 5px solid #4dc247;
     box-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   .wrapper ul li:hover .fa-whatsapp {
     color: #4dc247;
     text-shadow: 0 0 15px #4dc247;
     transition: all 0.5s ease;
+    cursor: none;
   }
   
   
