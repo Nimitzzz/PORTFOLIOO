@@ -9,7 +9,6 @@ body,html{
     scroll-behavior: smooth;
     height: 100vh;
     font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
     cursor: none;
 }
 #scene{
