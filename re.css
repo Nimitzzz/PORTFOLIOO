@@ -437,16 +437,24 @@ a {
 
   .timeline ol li:last-child,
   .timeline ol li:nth-last-child(2) div::before,
-  .timeline ol li:not(:last-child)::after,
-  .timeline .arrows {
-    display: none;
+  .timeline ol li:not(:last-child)::after{
+    display: contents;
     
+  }
+  .timeline .arrows{
+    display: none;
   }
   .html {width: 90%; background-color: orange;}
   .css {width: 80%; background-color: #2196F3;}
   .js {width: 75%; background-color: #f44336;}
   .php {width: 70%; background-color: #808080;}
   .java {width: 40%; background-color: #1e9db6;}
+  .work{
+    overflow-y: scroll;
+  }
+}
+.work{
+  overflow-y: scroll;
 }
 .sk{
     height: 60vh;
