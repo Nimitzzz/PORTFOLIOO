@@ -11,7 +11,8 @@ body,html{
     width: 100%;
     margin: 0px;
     padding: 0px;
-    
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
 }
 #scene{
     display: flex;
@@ -875,4 +876,9 @@ body .container .card .box .content a:hover {
     text-decoration: underline 1px white;
     text-decoration: bold;
     text-underline-offset: 5px;
+  }
+  #overflow{
+    overflow-x: scroll;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
   }
